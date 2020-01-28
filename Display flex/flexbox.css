@@ -1,0 +1,35 @@
+.flexcontainer {
+    display: flex;
+
+}
+
+header {
+    background-color: olive;
+    height: 100px;
+}
+
+.left-sidebar {
+    background-color: blue;
+    /* display: flex; */
+    width: 500px;
+    height: 500px;
+}
+
+.main-content {
+    background-color: white;
+    /* display: flex; */
+    width:100%;
+
+}
+
+.right-sidebar {
+    background-color: greenyellow;
+    /* display:flex; */
+    width: 500px;
+    height: 500px;
+}
+
+footer {
+    background-color: powderblue;
+    height: 100px;
+}

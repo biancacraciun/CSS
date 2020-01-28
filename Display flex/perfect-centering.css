@@ -1,0 +1,19 @@
+.parent {
+    display: flex;
+    height: 300px; 
+    width: 250px;
+    background-color: goldenrod;/* Or whatever */
+  }
+  
+  .child {
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+    background-color:olivedrab;
+    text-align: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  /* This relies on the fact a margin set to `auto` in a flex container absorb extra space.  */
+  /* So setting a vertical margin of auto will make the item perfectly centered in both axes. */
